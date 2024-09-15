@@ -7,6 +7,7 @@ body {
   min-height: 2000px;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 header {
@@ -168,5 +169,70 @@ nav h1 div:last-child {
   nav h1 {
     grid-column: 1 / span 4;
     grid-row: 1;
+  }
+  .container-header {
+    margin: 150px auto;
+    width: 90%;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+    "img-small"
+    "text-small"
+    "img-tall"
+    "about"
+    "cta-group";
+    gap: 5px;
+  }
+
+  .img-small-header {
+    padding: 20px;
+    grid-area: img-small;
+    border: 1px solid black;
+  }
+  
+  .img-tall-header {
+    padding: 1rem;
+  }
+
+  .about {
+    padding: 1rem;
+    grid-area: about;
+  }
+  
+  .about h2 {
+    font-size: 1em;
+    margin-bottom: 120px;
+  }
+
+  .about p {
+    font-size: .5em;
+  }
+
+  .about a {
+    font-size: .5em;
+  }
+
+  .text-about {
+    display: block;
+  }
+
+  .cta-group {
+    padding: 20px;
+  }
+
+  .cta-group p {
+    text-transform: uppercase;
+    font-size: .8em;
+    text-align: center;
+  }
+
+  .cta-group a {
+    width: 100%;
+    background-color: black;
+    padding: .5em .1em;
+    text-align: center;
+    color: white;
+    text-decoration: none;
   }
 }
