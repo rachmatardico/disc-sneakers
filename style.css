@@ -60,7 +60,7 @@ nav h1 div:last-child {
     "img-small text-small img-tall img-tall"
     "about about img-tall img-tall"
     "about about cta-group cta-group";
-    gap: 5px;
+    gap: 0px;
 }
 
 .img-small-header {
