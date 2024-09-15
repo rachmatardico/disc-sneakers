@@ -152,7 +152,7 @@ nav h1 div:last-child {
 .cta-group a {
     width: 100%;
     background-color: black;
-    padding: 1em .5em;
+    padding: 1em 0;
     text-align: center;
     color: white;
     text-decoration: none;
@@ -227,6 +227,10 @@ nav h1 div:last-child {
 
   nav {
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  nav a {
+    font-size: 1.15em;
   }
 
   nav h1 {
