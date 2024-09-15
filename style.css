@@ -10,22 +10,18 @@ body {
   overflow-x: hidden;
 }
 
-header {
-  background-color: white;
+nav {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-}
-
-nav {
-  max-width: 1400px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   text-align: center;
   align-items: center;
   padding: 10px;
+  background-color: white;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
 }
 
