@@ -173,22 +173,22 @@ nav h1 div:last-child {
   }
 
   .about {
-    padding: 1rem;
+    padding: .8rem;
     grid-area: about;
   }
   
   .about h2 {
     text-transform: uppercase;
-    font-size: 2.3em;
-    margin-bottom: 300px;
+    font-size: 2em;
+    margin-bottom: 200px;
   }
 
   .about p {
-    font-size: 1.1em;
+    font-size: .8em;
   }
 
   .about a {
-    font-size: 1.1em;
+    font-size: .8em;
   }
 
   .text-about {
