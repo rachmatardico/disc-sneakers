@@ -22,12 +22,18 @@ nav {
   align-items: center;
   padding: 10px;
   background-color: white;
+  opacity: .75;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+  z-index: 9999;
 }
 
 nav a{
   text-decoration: none;
-  color: #333;
+  color: black;
+}
+
+nav a:hover {
+    font-weight: 600;
 }
 
 nav h1 {
@@ -150,6 +156,15 @@ nav h1 div:last-child {
     text-align: center;
     color: white;
     text-decoration: none;
+    transition: 1s color ease;
+    border-radius: 5px;
+}
+
+.cta-group a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
 }
 
 /* Responsive breakpoints */
