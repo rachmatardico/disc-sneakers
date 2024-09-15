@@ -3,16 +3,21 @@
 body {
   margin: 0;
   font-family: "Poppins";
-  background: #f7f7f7;
+  background: white;
   min-height: 2000px;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
   background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 nav {
-  position: fixed;
   max-width: 1400px;
   margin: 0 auto;
   display: grid;
@@ -21,9 +26,6 @@ nav {
   align-items: center;
   padding: 10px;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
-  top: 0;
-  left: 0;
-  right: 0;
 }
 
 nav a{
@@ -42,6 +44,113 @@ nav h1 div:first-child {
 
 nav h1 div:last-child {
   font-weight: 400;
+}
+
+.container-header {
+    margin: 0 auto;
+    margin-top: 120px;
+    width: 90%;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 345.5px;
+    grid-template-areas: 
+    "img-small text-small img-tall img-tall"
+    "about about img-tall img-tall"
+    "about about cta-group cta-group";
+    gap: 5px;
+}
+
+.img-small-header {
+    padding: 30px;
+    grid-area: img-small;
+    border: 1px solid black;
+}
+
+.img-small-header img {
+    width: 100%;
+}
+
+.text-small-header {
+    background-color: #F2F2F0;
+    padding: 20px;
+    text-transform: uppercase;
+    grid-area: text-small;
+    border: 1px solid black;
+    display: flex;
+    align-items: end;
+}
+
+.text-small-header .text-group p {
+    margin: 0;
+    font-weight: 500;
+}
+
+.img-tall-header {
+    padding: 30px;
+    grid-area: img-tall;
+    border: 1px solid black;
+}
+
+.img-tall-header img {
+    width: 100%;
+    height: 100%;
+}
+
+.about {
+    flex-direction: column;
+    padding: 30px;
+    grid-area: about;
+    border: 1px solid black;
+}
+
+.about h1 {
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.about h2 {
+    font-size: 3em;
+}
+
+.text-about {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-about p {
+    max-width: 400px;
+}
+
+.text-about .link {
+    align-self: center;
+}
+
+.text-about .link a {
+    font-weight: 400;
+    color: black;
+}
+
+.cta-group {
+    padding: 30px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-area: cta-group;
+}
+
+.cta-group p {
+    text-transform: uppercase;
+}
+
+.cta-group a {
+    width: 100%;
+    background-color: black;
+    padding: 1em .5em;
+    text-align: center;
+    color: white;
+    text-decoration: none;
 }
 
 /* Responsive breakpoints */
