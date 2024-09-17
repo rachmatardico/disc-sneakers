@@ -341,6 +341,10 @@ nav h1 div:last-child {
   .cards-container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .img-card img {
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 576px) {
