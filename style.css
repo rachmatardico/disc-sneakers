@@ -416,4 +416,26 @@ nav h1 div:last-child {
     color: white;
     text-decoration: none;
   }
+
+  .container-men .header-men {
+    width: 90%;
+    display: block;
+    margin-top: -100px;
+    text-align: center;
+  }
+
+  .header-men a {
+    margin-top: -20px;
+    display: block;
+  }
+
+  .cards-container {
+    margin-top: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .img-card img {
+    width: 60%;
+    margin: auto;
+  }
 }
