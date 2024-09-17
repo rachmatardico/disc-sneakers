@@ -337,6 +337,10 @@ nav h1 div:last-child {
     color: white;
     text-decoration: none;
   }
+
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media screen and (max-width: 576px) {
