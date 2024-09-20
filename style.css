@@ -557,4 +557,47 @@ nav a div:first-child {
     width: 60%;
     margin: auto;
   }
+
+  .categories {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-categories p {
+    font-size: .8em;
+    margin-bottom: -30px;
+  }
+
+  .img-category {
+    min-width: 100%;
+    padding: 0px;
+    border: none;
+  }
+  
+  .img-category img {
+    width: 100%;
+    border: none;
+    padding: 0;
+  }
+
+  .category-text {
+    width: 100%;
+  }
+
+  .categories .category-text h3 {
+    font-size: 1em;
+    text-transform: uppercase;
+    line-height: 1em;
+    margin-bottom: 0px;
+  }
+
+  .categories .category-text p {
+    font-size: .7em;
+  }
+
+  .category-text a {
+    display: block;
+    text-align: center;
+    width: 90%;
+  }
 }
