@@ -432,6 +432,27 @@ nav a div:first-child {
     text-transform: uppercase;
     font-weight: 400;
   }
+
+  .img-category {
+    max-width: 250px;
+    border: 1px solid black;
+  }
+  
+  .img-category img {
+    width: 100%;
+    border: 1px solid black;
+  }
+
+  .categories .category-text h3 {
+    font-size: 2em;
+    text-transform: uppercase;
+    line-height: 1em;
+    margin-bottom: 20px;
+  }
+
+  .categories .category-text p {
+    font-size: .8em;
+  }
 }
 
 @media screen and (max-width: 576px) {
