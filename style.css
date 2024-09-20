@@ -29,6 +29,7 @@ nav {
   opacity: .75;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
   z-index: 9999;
+  padding: 25px;
 }
 
 nav a{
@@ -40,17 +41,9 @@ nav a:hover {
     font-weight: 600;
 }
 
-nav h1 {
-  line-height: 1em;
-}
-
-nav h1 div:first-child {
+nav a div:first-child {
   font-weight: 800;
   letter-spacing: 1.5px;
-}
-
-nav h1 div:last-child {
-  font-weight: 400;
 }
 
 .container-header {
