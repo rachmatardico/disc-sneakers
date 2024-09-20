@@ -718,4 +718,47 @@ nav a div:first-child {
     text-align: center;
     width: 90%;
   }
+
+  .container-brands .header-brands {
+    display: block;
+  }
+
+  .header-brands a {
+    text-align: center;
+    display: block;
+    margin-bottom: 50px;
+  }
+
+  .brand {
+    grid-auto-rows: 100px;
+    padding: 10px;
+  }
+
+  .img-brand img {
+    width: 100%;
+  }
+  
+  .brand-text {
+    grid-area: brand-text;
+  }
+  
+  .brand-text h3 {
+    font-size: 1.3em;
+    text-transform: uppercase;
+  }
+  
+  .brand-text p {
+    font-size: .6em;
+    text-transform: uppercase;
+    margin-top: -25px;
+  }
+  
+  .brand-logo {
+    grid-area: brand-logo;
+    grid-column: 4;
+  }
+  
+  .brand-logo img {
+    width: 60%;
+  }
 }
