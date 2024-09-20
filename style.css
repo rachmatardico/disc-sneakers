@@ -602,6 +602,7 @@ nav a div:first-child {
     "img-tall"
     "about"
     "cta-group";
+    margin-bottom: 0;
   }
 
   .img-small-header {
@@ -657,8 +658,12 @@ nav a div:first-child {
   .container-gender .header-gender {
     width: 90%;
     display: block;
-    margin-top: -100px;
-    text-align: center;
+    margin-top: 100px;
+    text-align: left;
+  }
+
+  .header-gender span {
+    display: block;
   }
 
   .header-gender a {
