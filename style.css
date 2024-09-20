@@ -543,6 +543,34 @@ nav a div:first-child {
   .categories .category-text p {
     font-size: .8em;
   }
+
+  .img-brand img {
+    width: 100%;
+  }
+  
+  .brand-text {
+    grid-area: brand-text;
+  }
+  
+  .brand-text h3 {
+    font-size: 2em;
+    text-transform: uppercase;
+  }
+  
+  .brand-text p {
+    font-size: .8em;
+    text-transform: uppercase;
+    margin-top: -30px;
+  }
+  
+  .brand-logo {
+    grid-area: brand-logo;
+    grid-column: 4;
+  }
+  
+  .brand-logo img {
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 576px) {
