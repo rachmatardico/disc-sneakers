@@ -845,4 +845,21 @@ footer {
   .brand-logo img {
     width: 60%;
   }
+
+  .newsletter {
+    display: block;
+  }
+
+  .footer-link {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  
+  .footer-link a {
+    color: #323232;
+    font-weight: 500;
+    text-decoration: none;
+  }
 }
