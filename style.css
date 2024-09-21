@@ -426,6 +426,80 @@ nav a div:first-child {
   width: 60%;
 }
 
+/* Footer styling */
+footer {
+  margin-top: 150px;
+  background-color: #f9f9f9;
+}
+
+.newsletter {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.newsletter .form-group {
+  flex: .3;
+}
+
+.newsletter h3 {
+  font-size: 1.4em;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #323232;
+}
+
+.newsletter input {
+  outline: none;
+  border: none;
+  background-color: #f9f9f9;
+  border-bottom: 2px solid #323232;
+  padding: 10px;
+  width: 100%;
+}
+
+.newsletter p {
+  font-size: .8em;
+}
+
+.footer-link {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.footer-link a {
+  color: #323232;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.menu-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.social-media-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.copyright {
+  border-top: 3px solid #F2F2F0;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.copyright a {
+  color: #323232;
+}
 /* Responsive breakpoints */
 @media screen and (max-width: 1024px) {
  .container-header {
