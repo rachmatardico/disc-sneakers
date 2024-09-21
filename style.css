@@ -500,6 +500,7 @@ footer {
 .copyright a {
   color: #323232;
 }
+
 /* Responsive breakpoints */
 @media screen and (max-width: 1024px) {
  .container-header {
@@ -644,6 +645,10 @@ footer {
   
   .brand-logo img {
     width: 60%;
+  }
+  
+  .newsletter .form-group {
+    flex: .55;
   }
 }
 
